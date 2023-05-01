@@ -13,9 +13,8 @@ GAMESTART= True
 guess = 0 
 guessed_state=[]
 
-state_data = pandas.read_csv("50_states.csv")#read date from csv file
-state_list = state_data.state.to_list()# making a list of the states
-
+state_data = pandas.read_csv("50_states.csv")   #read date from csv file
+state_list = state_data.state.to_list()         # making a list of the states
 
 while GAMESTART:
     answer_input = screen.textinput(title=f"{guess}/50 states correct", prompt="What's another state name")
