@@ -39,7 +39,6 @@ while GAMESTART:
         turtle.penup()
         turtle.goto(0,0)
 
-
 # states_to_learn = list(set(state_list) - set(guessed_state))
 # df=pandas.DataFrame(states_to_learn)
 # df.to_csv("States_to_learn.csv")
